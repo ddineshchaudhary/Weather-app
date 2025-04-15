@@ -1,0 +1,2 @@
+This is a weather app built using express js , handlebars template to render it in the server side.
+It fetches data from an api which is created and published in npm to fetch data from the opensource weather api.
