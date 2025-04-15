@@ -1,0 +1,15 @@
+<div class="weather-container">
+    <h1>{{heading}}</h1> 
+    <h1>Weather in {{location.name}}, {{location.region}}, {{location.country}} <img src="{{current.condition.icon}}" alt="{{current.condition.text}}"> </h1> 
+    <p>Local Time: {{location.localtime}}</p>
+    
+    <h2>Current Conditions</h2>
+    <p><strong>Temperature:</strong> {{current.temp_c}} °C ({{current.temp_f}} °F)</p>
+    <p><strong>Condition:</strong> {{current.condition.text}} </p>
+    <p><strong>Humidity:</strong> {{current.humidity}}%</p>
+    <p><strong>Wind:</strong> {{current.wind_mph}} mph ({{current.wind_kph}} kph) from the {{current.wind_dir}}</p>
+    <p><strong>Pressure:</strong> {{current.pressure_mb}} mb ({{current.pressure_in}} in)</p>
+    <p><strong>Feels Like:</strong> {{current.feelslike_c}} °C ({{current.feelslike_f}} °F)</p>
+    <p><strong>Visibility:</strong> {{current.vis_km}} km ({{current.vis_miles}} miles)</p>
+    <p><strong>UV Index:</strong> {{current.uv}}</p> 
+</div>
